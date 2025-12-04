@@ -6,10 +6,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Visca AI - System Status</title>
-				<meta name="description" content="Real-time status and uptime monitoring for Visca AI services" />
-				<meta property="og:title" content="Visca AI Systems Status" />
-				<meta property="og:description" content="Monitor the real-time status of Visca AI Gateway, API, UI, Sandbox, and Docs" />
+				<title>Care Collaborative - System Status</title>
+				<meta name="description" content="Real-time status and uptime monitoring for Care Collaborative AI training platforms" />
+				<meta property="og:title" content="Care Collaborative Systems Status" />
+				<meta property="og:description" content="Monitor the real-time status of Care Collaborative patient simulation, workplace training, and feedback evaluation platforms" />
 			</Head>
 			<Component {...pageProps} />
 		</>

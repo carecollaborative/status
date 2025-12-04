@@ -55,7 +55,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Status Page:* <https://status.visca.ai|status.visca.ai>\n*Repository:* <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"
+                    "text": "*Status Page:* <https://status.carecollaborative.cloud|status.carecollaborative.cloud>\\n*Repository:* <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"
                   }
                 },
                 {

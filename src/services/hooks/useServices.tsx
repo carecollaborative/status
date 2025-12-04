@@ -118,7 +118,7 @@ async function logs(key: string, url: string, dateOffset: number = 0): Promise<L
     // Extract domain from URL and create safe filename
     const domain = url.replace(/^https?:\/\/([^\/]+).*/, '$1');
     const filename = domain.replace(/\./g, '_');
-    const response = await fetch(`https://raw.githubusercontent.com/visca-ai/status/main/public/status/${filename}_report.log`);
+    const response = await fetch(`https://raw.githubusercontent.com/carecollaborative/status/staging/main/public/status/${filename}_report.log`);
 
     const text = await response.text();
     const lines = text.split("\n");
